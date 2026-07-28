@@ -70,3 +70,9 @@ What makes entries useful, based on how the example files are written:
 Date your project briefs and mark decisions as active or superseded rather than deleting them. An assistant that can see a decision was reversed, and when, is more useful than one working from a log that only shows the current state.
 
 Stale reference material is worse than none. If a project brief has not been touched in six months, either update it or move it out of the kit.
+
+## License
+
+AI Reference Kit © 2026 Johnny Bilotta, licensed under [CC BY 4.0](LICENSE).
+
+Copy it, rewrite it as yourself, and use it at work or commercially. The one condition is credit: keep an attribution line pointing back to this project in anything you publish or distribute that is built from it. Your rewritten content is yours.

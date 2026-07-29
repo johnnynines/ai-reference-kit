@@ -13,7 +13,7 @@ A reference kit fixes this by separating two things that usually get mashed into
 - **Standing instructions** that apply to every response (tone, format, hard rules)
 - **Reference material** the assistant should retrieve from when a task calls for it (org chart, glossary, project briefs)
 
-The first belongs in a custom-instructions field. The second belongs in project knowledge. Putting reference material in the instructions field makes it too long to be followed reliably; putting instructions in project knowledge makes them easy to ignore.
+The first belongs in the instructions field of your AI application's general settings. The second belongs in project knowledge. Putting reference material in the instructions field makes it too long to be followed reliably; putting instructions in project knowledge makes them easy to ignore.
 
 ## How it works
 
@@ -21,7 +21,7 @@ The kit has two tiers.
 
 **`my-ai-instructions.md`** is the distillation. Copy its contents into the custom instructions or system prompt field of any AI platform. It is deliberately short so the model actually follows it. Five blocks: who I am, how I communicate, what I use you for, standing rules, and output format defaults.
 
-**The numbered folders** are the source material. Upload them as project knowledge, files, or attached documents. They hold the detail that is too long or changes too often to inline.
+**The numbered folders** are the source material for projects. Upload them as project knowledge, files, or attached documents. They hold the detail that is too long or changes too often to inline.
 
 | Folder | Contents | Update frequency |
 |---|---|---|
@@ -35,7 +35,7 @@ The numbering encodes reading priority, not a required upload order.
 
 ## Setup
 
-**Claude Projects.** Create a project. Paste `my-ai-instructions.md` into the project's custom instructions. Add the numbered folders' files to project knowledge.
+**Claude, ChatGPT, Gemini Instructions Settings.** Paste your edited version of `my-ai-instructions.md` into the your app's custom instructions field. 
 
 **ChatGPT Custom GPTs.** Create a GPT. Paste `my-ai-instructions.md` into the Instructions field. Upload the folder files under Knowledge.
 

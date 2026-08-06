@@ -78,7 +78,7 @@ Without that mapping the files sit there and the assistant retrieves from them i
 
 **Step 1, once per platform.** Paste your edited `general-instructions.md` into the account-level instructions field. Claude: Settings, then General. ChatGPT: Personalization, then Custom Instructions. Gemini: Personal Intelligence, then Instructions for Gemini. Copilot: personalization settings.
 
-**Step 2, once per workspace.** Create the workspace: a Claude Project or Cowork project, a ChatGPT Project, or a Gemini Notebook. Fill in a copy of `project-instructions.md` for that workspace and paste it into the workspace's instructions field.
+**Step 2, once per workspace.** Create the workspace: a Claude Project or Cowork Project, a ChatGPT Project, or a Gemini Notebook. Fill in a copy of `project-instructions.md` for that workspace and paste it into the workspace's instructions field.
 
 **Step 3, once per workspace.** Upload the files. Always include the `04` files if the workspace produces written output. Add `01` through `03` and `05` as the work requires. A workspace focused on one client project may only need that project's brief, the org chart, and the decisions log.
 
